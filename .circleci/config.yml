@@ -18,7 +18,7 @@ jobs:
           paths:
             - echo-output
   two:
-    docker
+    docker:
       - image: circleci/ruby:2.4.1
         auth:
           username: mydockerhub-user
